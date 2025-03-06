@@ -158,11 +158,17 @@ class Navbar extends Component {
               <FontAwesomeIcon icon={faHome} />
             </div>
           </Link>
-          <Link href="/blog">
-            <div className="nav-component">
-              <FontAwesomeIcon icon={faPenNib} />
-            </div>
-          </Link>
+          <Link 
+  href="https://github.com/CodeSpherreDev" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="m-github"
+>
+  <div className="nav-component">
+    <FontAwesomeIcon icon={faPenNib} />
+  </div>
+</Link>
+
 
           <a href="https://github.com/Abhranil2004" target="_blank" className="m-github">
           <div className="nav-component gt-container">
